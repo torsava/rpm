@@ -157,7 +157,7 @@ if __name__ == "__main__":
     group.add_argument('-R', '--requires', action='store_true', help='Print Requires')
     group.add_argument('-r', '--recommends', action='store_true', help='Print Recommends')
     group.add_argument('-C', '--conflicts', action='store_true', help='Print Conflicts')
-    group.add_argument('-E', '--extras', action='store_true', help='[Unused] Generate spec file snippes for extras subpackages')
+    group.add_argument('-E', '--extras', action='store_true', help='[Unused] Generate spec file snippets for extras subpackages')
     group_majorver = parser.add_mutually_exclusive_group()
     group_majorver.add_argument('-M', '--majorver-provides', action='store_true', help='Print extra Provides with Python major version only')
     group_majorver.add_argument('--majorver-provides-versions', action='append',
